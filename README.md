@@ -29,7 +29,7 @@ All transformations are written in SQL and are fully reproducible.
   - store_sales_order_detail
 
 ### Publish Layer
-- Purpose: business logic and analytics-ready data
+- Purpose: business logic
 - Tables:
   - publish_product
   - publish_orders
