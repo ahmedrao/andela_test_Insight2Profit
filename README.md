@@ -53,8 +53,6 @@ Identifies the product color generating the highest revenue each year using wind
 ### 2. Average Lead Time by Product Category
 Calculates operational lead-time efficiency by product category.
 
----
-
 ## How to Run
 
 1. Install DuckDB
@@ -63,7 +61,12 @@ Calculates operational lead-time efficiency by product category.
 
 **sql**
 .read sql/01_raw_load.sql
+
 .read sql/02_store_layer.sql
+
 .read sql/03_publish_product.sql
+
 .read sql/04_publish_orders.sql
+
 .read sql/05_analysis.sql
+
